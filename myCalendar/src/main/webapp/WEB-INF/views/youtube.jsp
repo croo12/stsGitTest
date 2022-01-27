@@ -17,6 +17,7 @@
     <script>
     
       document.cookie = "SameSite=Strict";
+      console.log("cookie check : " + document.cookie);
     
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
