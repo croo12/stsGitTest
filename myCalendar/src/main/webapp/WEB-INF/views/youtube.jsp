@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>유튜브 api실험장</title>
 </head>
 <body>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
