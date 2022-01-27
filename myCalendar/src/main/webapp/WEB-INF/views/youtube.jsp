@@ -32,7 +32,6 @@
           height: '360',
           width: '640',
           videoId: 'M7lc1UVf-VE',
-          autoplay : '1',
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
