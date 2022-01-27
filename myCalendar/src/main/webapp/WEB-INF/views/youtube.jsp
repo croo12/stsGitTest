@@ -16,7 +16,7 @@
 
     <script>
     
-      document.cookie = "SameSite=None; yourMind=1; Secure";
+      document.cookie = " yourMind=1; SameSite=None; Secure";
       console.log("cookie check : " + document.cookie);
     
       // 2. This code loads the IFrame Player API code asynchronously.
@@ -54,7 +54,7 @@
       var done = false;
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 26000);
+          setTimeout(stopVideo, 6000);
         }
       }
       function stopVideo() {
