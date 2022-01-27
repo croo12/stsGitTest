@@ -16,7 +16,7 @@
 
     <script>
     
-      document.cookie = "SameSite=Strict";
+      document.cookie = "SameSite=None; Secure";
       console.log("cookie check : " + document.cookie);
     
       // 2. This code loads the IFrame Player API code asynchronously.
