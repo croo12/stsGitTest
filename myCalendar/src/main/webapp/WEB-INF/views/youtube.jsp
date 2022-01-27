@@ -15,6 +15,9 @@
   frameborder="0"></iframe> -->
 
     <script>
+    
+      document.cookie = "SameSite = Strict";
+    
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
