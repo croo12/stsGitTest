@@ -7,12 +7,20 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>
-	Hello world!
+<header>
+	<h1>
+		Hello world!
+		
+		깃허브는 살아있다!!
+	</h1>
+	<P>  The time on the server is ${serverTime}. </P>
+	<nav>
+		<ul>
+			<li><a href="youtube.do">유튜브 api</a></li>
+			<li><a href=""></a></li>
+		</ul>
+	</nav>
 	
-	깃허브는 살아있다!!
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
+</header>
 </body>
 </html>
